@@ -66,6 +66,15 @@
             "icon_3": "leather",
             "heading_3": "100% Linen"
           }
+        },
+        "collapsible_tab_bTNkYB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "icon": "none",
+            "content": "<ul><li>{{ metaobjects[\"shopify--clothing-features\"][\"water-resistant\"].label.value }}</li><li>{{ metaobjects[\"shopify--clothing-features\"].windproof.label.value }}</li><li>{{ metaobjects[\"shopify--clothing-features\"][\"quick-drying\"].label.value }}</li></ul>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -77,7 +86,8 @@
         "share",
         "buy_buttons",
         "description",
-        "icon_with_text_rfhriT"
+        "icon_with_text_rfhriT",
+        "collapsible_tab_bTNkYB"
       ],
       "settings": {
         "enable_sticky_info": true,
