@@ -175,9 +175,7 @@
         "heading_FhNbFK",
         "text_TQ8kKq"
       ],
-      "custom_css": [
-        "body {margin-left: 0px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "{{ product.featured_image }}",
