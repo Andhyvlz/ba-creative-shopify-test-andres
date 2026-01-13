@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "none",
-            "content": "{{ product.metafields.shopify.features | metafield_tag: field: 'label' }}",
+            "content": "{{ product.metafields.shopify[\"clothing-features\"] | metafield_tag: field: 'label' }}<p></p>",
             "page": ""
           }
         }
