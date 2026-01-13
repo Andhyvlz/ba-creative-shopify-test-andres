@@ -59,12 +59,12 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "truck",
-            "heading_1": "Free Delivery Over $100",
-            "icon_2": "return",
-            "heading_2": "Instant Refund with Refundid",
-            "icon_3": "price_tag",
-            "heading_3": "Buy Now. Pay Later."
+            "icon_1": "return",
+            "heading_1": "Instant Return With Refundid",
+            "icon_2": "truck",
+            "heading_2": "Free Standar Shipping Over $100",
+            "icon_3": "leather",
+            "heading_3": "100% Linen"
           }
         },
         "collapsible_tab_bTNkYB": {
