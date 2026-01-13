@@ -24,7 +24,10 @@
     "custom_liquid_R8w6QE": {
       "type": "custom-liquid",
       "custom_css": [
-        ".icon-with-text--horizontal {display: flex; justify-content: center; column-gap: 3rem; flex-direction: row;}"
+        ".icon-with-text--horizontal {display: flex; justify-content: center; column-gap: 3rem; flex-direction: row;}",
+        ".icon-with-text {--icon-size: calc(var(--font-heading-scale) * 3rem); --icon-spacing: calc(var(--font-heading-scale) * 1rem);}",
+        ".list-unstyled {margin: 0; padding: 0; list-style: none;}",
+        ".icon-with-text {--icon-size: calc(var(--font-heading-scale) * 3rem); --icon-spacing: calc(var(--font-heading-scale) * 1rem);}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
