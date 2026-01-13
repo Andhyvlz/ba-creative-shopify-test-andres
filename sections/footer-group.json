@@ -11,6 +11,16 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_HUeNJ8": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -34,19 +44,12 @@
             "heading": "Come in Store",
             "subtext": "<p>Shop 1 / 325<br/><br/>Woolloongabba Q 4169<br/><br/>07 3333 3333</p>"
           }
-        },
-        "brand_information_8jdjbi": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
         }
       },
       "block_order": [
         "link_list_DyE3bM",
         "link_list_yLRtCT",
-        "text_3MPqpf",
-        "brand_information_8jdjbi"
+        "text_3MPqpf"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -65,6 +68,7 @@
     }
   },
   "order": [
+    "custom_liquid_HUeNJ8",
     "footer"
   ]
 }
