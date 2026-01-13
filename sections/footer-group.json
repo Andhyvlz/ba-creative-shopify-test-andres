@@ -14,12 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "brand_information_8jdjbi": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
         "link_list_DyE3bM": {
           "type": "link_list",
           "settings": {
@@ -33,17 +27,31 @@
             "heading": "Info",
             "menu": "info"
           }
+        },
+        "text_3MPqpf": {
+          "type": "text",
+          "settings": {
+            "heading": "Come in Store",
+            "subtext": "<p>Shop 1 / 325<br/><br/>Woolloongabba Q 4169<br/><br/>07 3333 3333<br/><a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">facebook.com</a></p>"
+          }
+        },
+        "brand_information_8jdjbi": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
-        "brand_information_8jdjbi",
         "link_list_DyE3bM",
-        "link_list_yLRtCT"
+        "link_list_yLRtCT",
+        "text_3MPqpf",
+        "brand_information_8jdjbi"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Suscribe",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
