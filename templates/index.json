@@ -36,6 +36,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify://shop_images/female-fashion-model-poses-in-city-street.jpg",
+        "image_2": "shopify://shop_images/woman-puts-hand-in-pocket.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "image_behavior": "none",
@@ -82,7 +84,7 @@
         "heading_X8UfKp": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>Our Dresses are Built Different</strong>",
             "heading_size": "h1"
           }
         },
@@ -109,7 +111,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
+        "image": "shopify://shop_images/fashion-model-walks-down-city-street.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -123,44 +125,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_zJzbAL": {
-      "type": "image-with-text",
-      "blocks": {
-        "button_33PHiC": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Sale",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "button_33PHiC"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/logo.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "none",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "right",
-        "mobile_content_alignment": "center",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 16,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "image_with_text_PxpKRH",
-    "image_with_text_zJzbAL"
+    "image_with_text_PxpKRH"
   ]
 }
