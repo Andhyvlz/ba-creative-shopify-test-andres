@@ -14,39 +14,24 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_pqeEzm": {
-          "type": "image",
+        "link_list_DyE3bM": {
+          "type": "link_list",
           "settings": {
-            "image": "shopify://shop_images/logo.png",
-            "image_width": 100,
-            "alignment": "center"
+            "heading": "Quick links",
+            "menu": "footer"
           }
         },
-        "text_aYwb3y": {
-          "type": "text",
+        "link_list_yLRtCT": {
+          "type": "link_list",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
-          }
-        },
-        "brand_information_nik8pB": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
-        "brand_information_kxckKY": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
+            "heading": "Quick links",
+            "menu": "main-menu"
           }
         }
       },
       "block_order": [
-        "image_pqeEzm",
-        "text_aYwb3y",
-        "brand_information_nik8pB",
-        "brand_information_kxckKY"
+        "link_list_DyE3bM",
+        "link_list_yLRtCT"
       ],
       "settings": {
         "color_scheme": "scheme-1",
