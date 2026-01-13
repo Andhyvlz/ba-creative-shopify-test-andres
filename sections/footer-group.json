@@ -14,6 +14,12 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "brand_information_8jdjbi": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
         "link_list_DyE3bM": {
           "type": "link_list",
           "settings": {
@@ -30,6 +36,7 @@
         }
       },
       "block_order": [
+        "brand_information_8jdjbi",
         "link_list_DyE3bM",
         "link_list_yLRtCT"
       ],
