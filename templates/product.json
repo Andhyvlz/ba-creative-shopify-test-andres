@@ -67,6 +67,18 @@
             "heading_3": "100% Linen"
           }
         },
+        "icon_with_text_GCeigC": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "truck",
+            "heading_1": "Free Delivery Over $100",
+            "icon_2": "return",
+            "heading_2": "Instant Return With Refundid",
+            "icon_3": "price_tag",
+            "heading_3": "Buy Now. Pay Later."
+          }
+        },
         "collapsible_tab_bTNkYB": {
           "type": "collapsible_tab",
           "settings": {
@@ -87,6 +99,7 @@
         "buy_buttons",
         "description",
         "icon_with_text_rfhriT",
+        "icon_with_text_GCeigC",
         "collapsible_tab_bTNkYB"
       ],
       "settings": {
