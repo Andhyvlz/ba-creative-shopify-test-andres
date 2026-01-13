@@ -42,6 +42,13 @@
 .icon-with-text--horizontal .svg-wrapper {
   margin-bottom: var(--icon-spacing);
 }
+.icon-with-text--horizontal .h4 {
+    padding-top: calc(var(--icon-size) + var(--icon-spacing));
+    text-align: center;
+}
+.icon-with-text--horizontal .svg-wrapper+.h4 {
+    padding-top: 0;
+}
 
 .product-card-wrapper .card,
 .contains-card--product {
