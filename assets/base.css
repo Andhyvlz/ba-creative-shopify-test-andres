@@ -50,6 +50,12 @@
     padding-top: 0;
 }
 
+@media screen and (min-width: 750px) {
+    .image-with-text__media-item--small {
+        flex-grow: 0;
+    }
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
