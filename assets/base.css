@@ -39,6 +39,10 @@
     width: var(--icon-size);
 }
 
+.icon-with-text--horizontal .svg-wrapper {
+  margin-bottom: var(--icon-spacing);
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
