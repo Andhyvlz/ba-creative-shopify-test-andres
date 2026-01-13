@@ -33,6 +33,11 @@
     flex-direction: column;
     width: 33%;
 }
+.icon-with-text .svg-wrapper {
+    fill: rgb(var(--color-foreground));
+    height: var(--icon-size);
+    width: var(--icon-size);
+}
 
 .product-card-wrapper .card,
 .contains-card--product {
