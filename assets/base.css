@@ -49,7 +49,10 @@
 .icon-with-text--horizontal .svg-wrapper+.h4 {
     padding-top: 0;
 }
-
+.image-with-text__media {
+    min-height: 100%;
+    overflow: visible;
+}
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
