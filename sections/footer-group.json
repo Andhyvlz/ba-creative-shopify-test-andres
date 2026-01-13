@@ -17,15 +17,15 @@
         "link_list_DyE3bM": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Customer",
+            "menu": "customer"
           }
         },
         "link_list_yLRtCT": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "main-menu"
+            "heading": "Info",
+            "menu": "info"
           }
         }
       },
