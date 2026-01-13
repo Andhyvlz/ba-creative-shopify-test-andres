@@ -24,9 +24,9 @@
     "custom_liquid_R8w6QE": {
       "type": "custom-liquid",
       "custom_css": [
-        "span.svg-wrapper {fill: rgb(var(--color-foreground)); height: var(--icon-size); width: var(--icon-size);}",
-        "span.h4.inline-richtext {padding-top: calc(var(--icon-size) + var(--icon-spacing)); text-align: center; padding-top: 0;}",
-        "li.icon-with-text__item {display: flex; align-items: center; flex-direction: column; width: 33%;}"
+        ".svg-wrapper {fill: rgb(var(--color-foreground)); height: var(--icon-size); width: var(--icon-size);}",
+        ".h4 .inline-richtext {padding-top: calc(var(--icon-size) + var(--icon-spacing)); text-align: center; padding-top: 0;}",
+        ".icon-with-text__item {display: flex; align-items: center; flex-direction: column; width: 33%;}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
