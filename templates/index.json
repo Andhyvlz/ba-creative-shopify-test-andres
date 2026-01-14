@@ -65,7 +65,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-f8154cd0-d97c-4a28-a76f-31f54a5c9454",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -111,8 +111,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-f8154cd0-d97c-4a28-a76f-31f54a5c9454",
+        "color_scheme": "scheme-f8154cd0-d97c-4a28-a76f-31f54a5c9454",
         "padding_top": 36,
         "padding_bottom": 36
       }
