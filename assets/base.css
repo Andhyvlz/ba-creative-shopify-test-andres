@@ -14,7 +14,10 @@ ul.icon-with-text.icon-with-text--horizontal.list-unstyled {
   background: #121212;
 }
 
-span.h4.inline-richtext, svg.icon.icon-accordion.icon-price-tag {
+svg.icon.icon-accordion.icon-price-tag {
+  color: rgb(255, 255, 255, 0.75);
+}
+span.h4.inline-richtext {
   color: rgb(255, 255, 255, 0.75);
 }
 .section-sections--21378809823488__custom_liquid_R8w6QE-padding > * + * {
