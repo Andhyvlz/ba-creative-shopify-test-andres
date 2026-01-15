@@ -15,7 +15,7 @@
 {%- if section.settings.menu_type_desktop == 'mega' -%}
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
-{% render 'breadcrumbs' %}
+
 <style>
   header-drawer {
     justify-self: start;
@@ -303,6 +303,7 @@
       </a>
     </div>
   </header>
+  {% render 'breadcrumbs' %}
 </{{ header_tag }}>
 
 {%- if settings.cart_type == 'notification' -%}
