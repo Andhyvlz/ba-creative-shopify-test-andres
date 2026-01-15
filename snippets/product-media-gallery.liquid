@@ -12,9 +12,7 @@
 {% endcomment %}
 
 {%- liquid
-  if section.settings.hide_variants and variant_images.size == product.media.size
-    assign single_media_visible = true
-  endif
+  
 
   if limit == 1
     assign single_media_visible = true
