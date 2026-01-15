@@ -63,9 +63,11 @@
             "image_1": "{{ product.metafields.custom.usp_1_icon.value }}",
             "heading_1": "{{ product.metafields.custom.usp_1_title.value }}",
             "icon_2": "none",
-            "heading_2": "Free Standar Shipping Over $100",
-            "icon_3": "leather",
-            "heading_3": "100% Linen"
+            "image_2": "{{ product.metafields.custom.usp_2_icon.value }}",
+            "heading_2": "{{ product.metafields.custom.usp_2_title.value }}",
+            "icon_3": "none",
+            "image_3": "{{ product.metafields.custom.usp_3_icon.value }}",
+            "heading_3": "{{ product.metafields.custom.usp_3_title.value }}"
           }
         },
         "collapsible_tab_bTNkYB": {
