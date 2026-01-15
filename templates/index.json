@@ -84,14 +84,14 @@
         "heading_X8UfKp": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Our Dresses are Built Different</strong>",
+            "heading": "<strong>{{ metaobjects.highlight[\"highlight-dxl2nbgf\"].title.value }}</strong>",
             "heading_size": "h1"
           }
         },
         "text_mXPaHk": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>Made from 100% high quality French linen</strong></h2><p>All our dresses are made slowly and mindfully from the highest quality French linen. Imported direct from Europe, our linen is soft, durable, breathy and sustainable.<br/><br/>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis. Ut commodo efficitur neque.<br/><br/><strong><br/></strong></p>",
+            "text": "<p>{{ metaobjects.highlight[\"highlight-dxl2nbgf\"].description | metafield_tag }}</p>",
             "text_style": "body"
           }
         }
@@ -102,7 +102,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4bb091a30da5d85e70347c746a469ccd40234434.jpg",
+        "image": "{{ metaobjects.highlight[\"highlight-dxl2nbgf\"].picture.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
