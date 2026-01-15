@@ -78,6 +78,24 @@
             "content": "{{ product.metafields.shopify[\"clothing-features\"] | metafield_tag: field: 'label' }}<p></p>",
             "page": ""
           }
+        },
+        "collapsible_tab_caeTQx": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Age Group",
+            "icon": "none",
+            "content": "{{ product.metafields.shopify[\"age-group\"] | metafield_tag: field: 'label' }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_krx96G": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Target Gender",
+            "icon": "none",
+            "content": "{{ product.metafields.shopify[\"target-gender\"] | metafield_tag: field: 'label' }}",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -90,7 +108,9 @@
         "buy_buttons",
         "description",
         "icon_with_text_rfhriT",
-        "collapsible_tab_bTNkYB"
+        "collapsible_tab_bTNkYB",
+        "collapsible_tab_caeTQx",
+        "collapsible_tab_krx96G"
       ],
       "settings": {
         "enable_sticky_info": true,
