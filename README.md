@@ -113,6 +113,49 @@ git push origin main
 
 ---
 
+## 🧾 Additional Theme Variants
+
+This theme uses multiple visual schemes across different sections to enhance clarity and contrast.
+
+### 🟣 Body & Header
+- Background: `#EDE6F7`  
+- Text: `#1A1A1A`  
+- Solid button background: `#6E5A82`  
+- Solid button label: `#FFFFFF`  
+- Outline button: `#6E5A82`  
+- Shadow: `#8C92A0`  
+
+This is the primary scheme used across most of the site.
+
+### ⚫ Footer (Dark Variant)
+- Background: `#121212`  
+- Text: `#FFFFFF`  
+- Solid button background: `#121212`  
+- Solid button label: `#FFFFFF`  
+- Outline button: `#FFFFFF`  
+- Shadow: `#1A1A1A`  
+
+Used in the footer to provide visual contrast and separation.
+
+### ⚪ Announcement Bar (Neutral Variant)
+- Background: `#F3F3F3`  
+- Text: `#121212`  
+- Button background: `#121212`  
+- Button label: `#F3F3F3`  
+- Outline button: `#121212`  
+- Shadow: `#121212`  
+
+Used for promotional messages and announcements.
+
+### 🟪 Primary Button Hover
+- Button hover background: `#D6CDEB`  
+- Button hover text: `#1A1A1A`  
+
+This hover state is applied to primary call-to-action buttons.
+
+
+---
+
 ## 🧩 Development Workflow
 
 1. Review the Figma design  
@@ -127,7 +170,7 @@ git push origin main
 
 ---
 
-## 📄 Documentation
+<h2 id="documentation">📄 Documentation</h2>
 
 All project documentation is stored inside the `/docs` folder.
 
