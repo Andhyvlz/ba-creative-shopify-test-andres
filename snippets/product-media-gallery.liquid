@@ -12,7 +12,9 @@
 {% endcomment %}
 
 {%- liquid
-  
+  if section.settings.hide_variants and variant_images.size == product.media.size
+    assign single_media_visible = true
+  endif
 
   if limit == 1
     assign single_media_visible = true
@@ -84,13 +86,10 @@
         </li>
       {%- endif -%}
       {%- for media in product.media -%}
-        {% if media_position >= limit
-          or media_position >= 1
-          and section.settings.hide_variants
-          and variant_images contains media.src
-        %}
-          {% continue %}
-        {% endif %}
+       {% if media_position >= limit %}
+  {% continue %}
+{% endif %}
+
 
         {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
           <li
