@@ -16,7 +16,7 @@ The goal is to implement a fully responsive, editable, and brand‑consistent th
 
 ---
 
-## 📌 Project Overview
+<h2 id="project-overview">📌 Project Overview</h2>
 This project is a Shopify theme development test.  
 The objective is to reproduce the provided Figma design with high visual accuracy, implement reusable sections, ensure responsive behavior, and maintain clean, scalable code.
 
@@ -29,7 +29,7 @@ Key objectives:
 
 ---
 
-## 🛠️ Tech Stack
+<h2 id="tech-stack">🛠️ Tech Stack</h2>
 - **Shopify Online Store 2.0**
 - **Liquid**
 - **HTML / CSS / JavaScript**
@@ -39,7 +39,7 @@ Key objectives:
 
 ---
 
-## 📁 Repository Structure
+<h2 id="repository-structure">📁 Repository Structure</h2>
 
 ### 🔧 Technical File Tree (code block)
 ```md
@@ -66,7 +66,7 @@ README.md        → main project documentation
 
 ---
 
-## 🔄 GitHub Sync Workflow
+<h2 id="github-sync-workflow">🔄 GitHub Sync Workflow</h2>
 
 This project uses **Shopify’s GitHub integration**.
 
@@ -96,7 +96,7 @@ git push origin main
 
 ---
 
-## 🎨 Color Palette & Typography
+<h2 id="color-palette-typography">🎨 Color Palette & Typography</h2>
 
 ### Primary Colors
 | Name            | HEX       |
@@ -113,7 +113,7 @@ git push origin main
 
 ---
 
-## 🧾 Additional Theme Variants
+<h2 id="additional-theme-variants">🧾 Additional Theme Variants</h2>
 
 This theme uses multiple visual schemes across different sections to enhance clarity and contrast.
 
@@ -156,7 +156,7 @@ This hover state is applied to primary call-to-action buttons.
 
 ---
 
-## 🧩 Development Workflow
+<h2 id="development-workflow">🧩 Development Workflow</h2>
 
 1. Review the Figma design  
 2. Configure theme + GitHub connection  
