@@ -7,6 +7,33 @@
   --focused-base-outline-offset: 0.3rem;
   --focused-base-box-shadow: 0 0 0 0.3rem rgb(var(--color-background)), 0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
+
+.breadcrumbs {
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.breadcrumbs li::after {
+  content: "/";
+  margin-left: 6px;
+}
+
+.breadcrumbs li:last-child::after {
+  content: "";
+}
+
+
 section#shopify-section-template--21378810347776__main {
   background: #EDE6f7;
 }
