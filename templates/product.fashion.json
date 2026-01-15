@@ -96,6 +96,15 @@
             "content": "{{ product.metafields.shopify[\"target-gender\"] | metafield_tag: field: 'label' }}",
             "page": ""
           }
+        },
+        "collapsible_tab_cGQ4ek": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Dress Style",
+            "icon": "none",
+            "content": "{{ product.metafields.shopify[\"dress-style\"] | metafield_tag: field: 'label' }}",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -110,7 +119,8 @@
         "icon_with_text_rfhriT",
         "collapsible_tab_bTNkYB",
         "collapsible_tab_caeTQx",
-        "collapsible_tab_krx96G"
+        "collapsible_tab_krx96G",
+        "collapsible_tab_cGQ4ek"
       ],
       "settings": {
         "enable_sticky_info": true,
